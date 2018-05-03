@@ -12,21 +12,26 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //Console.WriteLine(
-              
+            
+            Console.WriteLine(MeToo.DoSomeCalling());
 
-            /*string MeToo()
-            {
-                string metoo = "Me Too!!";
-                return metoo;
-            }*/
+            Console.WriteLine(MeTooTwo.PrintToo()); 
+
+        }
+       
+    }
 
 
+    class MeToo
+    {
 
+        public static string DoSomeCalling()
+        {
+            string metoo = "Me Too!";
+            return metoo;
         }
 
         
-
 
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class PrintMeToo
+    class MeTooTwo
     {
-        public string PrintToo()
+        public static string PrintToo()
         {
-            string metoo = "Me Too!!";
+            string metoo = "Me TooTwo!!";
             return metoo;
 
 
